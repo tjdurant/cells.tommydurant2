@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ImageDbModelStoreContainer" CdmEntityContainer="ImageDbEntities1">
+    <EntitySetMapping Name="Tables">
+      <EntityTypeMapping TypeName="ImageDbModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="ImgId" ColumnName="ImgId" />
+          <ScalarProperty Name="ImgBin" ColumnName="ImgBin" />
+          <ScalarProperty Name="X" ColumnName="X" />
+          <ScalarProperty Name="Y" ColumnName="Y" />
+          <ScalarProperty Name="W" ColumnName="W" />
+          <ScalarProperty Name="H" ColumnName="H" />
+          <ScalarProperty Name="LABEL" ColumnName="LABEL" />
+          <ScalarProperty Name="ANNOTATOR" ColumnName="ANNOTATOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
